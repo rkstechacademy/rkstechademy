@@ -4,16 +4,50 @@
     box-sizing: border-box;
 }
 @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-   
-    overflow-x: hidden;
+overflow-x: hidden;
+margin: 0;
+padding: 0;
 }
-
+.container {
+width: 100vw;
+height: 100vh;
+background-color: #eee;
+}
+.content {
+width: 100vw;
+height: 100vh;
+margin: 0 auto;
+background-color: #fff;
+}
+.top {
+height: 20%;
+background-color: #ccc;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bottom {
+height: 80%;
+display: flex;
+}
+.bottom-left {
+width: 20%;
+background-color: #eee;
+padding: 10px;
+}
+.bottom-right {
+width: 80%;
+background-color: #fff;
+padding: 10px;
+}
 /* navbar */
 .fas {
     color: #f56a6a;
@@ -513,3 +547,4 @@ strong {
  .hr.active{
     width: 1500px;
  }
+
